@@ -1,0 +1,66 @@
+# ==========================================
+# 977Star✨ · 知影 - Git 忽略规则
+# ==========================================
+
+# 1. Python 虚拟环境与编译缓存
+.venv/
+backend/.venv/
+__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# 2. PyInstaller 与本地构建产物
+build/
+*.spec
+*.toc
+*.pkg
+*.manifest
+dist/
+binaries/
+src-tauri/binaries/core-server*
+src-tauri/target/
+
+# 3. Node & 前端构建
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# 4. 用户隐私配置与敏感数据 (绝对防泄露)
+user_config.json
+backend/user_config.json
+.env
+.env.*
+*.key
+*.pem
+
+# 5. 运行时临时媒体与缓存存储
+storage/
+backend/storage/
+*.log
+temp/
+
+# 6. AI 辅助开发/内部规范草稿 (不推送到外部公开仓库)
+AGENTS.md
+ROADMAP*.md
+docs/internal/
+.antigravitycli/
+.claude/
+.gemini/
+
+# 7. 操作系统与编辑器生成文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
