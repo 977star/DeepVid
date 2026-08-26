@@ -38,10 +38,10 @@ Traditional AI summaries often produce generic, robotic bullet points devoid of 
 
 | Feature | Description |
 | :--- | :--- |
-| **🎬 Universal Media Ingestion** | Instant extraction for Bilibili, YouTube, Douyin, Xiaohongshu (RED), and local MP4/MOV/MP3 files. |
-| **🧠 Dual-Pipeline Distillation** | Switch freely between 🔥 **One-Pass Stream (Recommended)** and ⚡ **Two-Step Modular**, unleashing **DeepSeek 128k context** power. |
+| **🎬 Universal Media Ingestion** | Native extraction for YouTube, Bilibili, TikTok, Douyin, Xiaohongshu (RED), and local MP4/MOV/MP3/M4A files. |
+| **🧠 Dual-Pipeline Distillation** | Switch freely between 🔥 **One-Pass Direct Stream (Recommended)** and ⚡ **Two-Step Modular**, unleashing **DeepSeek 128k context** power. |
 | **🌈 Rich Obsidian Callouts** | Native support for `ℹ️ NOTE`, `💡 TIP`, `📌 IMPORTANT`, `⚠️ WARNING`, `🚨 CAUTION`, and `🔥 DANGER` with language auto-adaptation. |
-| **📸 Magazine-Quality Visuals** | Precise snapshot extraction creates an engaging illustrated reading experience. |
+| **📸 Multi-Tier Adaptive Visuals** | Smart dynamic keyframe sampling across ultra-short, short, medium, and long videos for magazine-quality illustrated notes. |
 | **🌳 Interactive Mindmaps** | Clear hierarchical mindmaps with drag/zoom and vector SVG export. |
 | **💬 Contextual AI Mentor** | Ask anything regarding code snippets, formulas, or timestamps with instant responses. |
 | **📱 LAN Sharing & Fast Export** | Read notes on mobile devices under the same Wi-Fi; export pure or illustrated Markdown instantly. |
@@ -52,7 +52,7 @@ Traditional AI summaries often produce generic, robotic bullet points devoid of 
 ## 📥 Installation
 
 ### macOS (Apple Silicon M1/M2/M3/M4)
-1. Head to **[Releases Page](https://github.com/977star/DeepVid/releases)** and download `DeepVid_1.9.0_aarch64.dmg`;
+1. Head to **[Releases Page](https://github.com/977star/DeepVid/releases)** and download `DeepVid_2.2.0_aarch64.dmg`;
 2. Open DMG and drag **DeepVid.app** into your **Applications** folder;
 3. Launch the app, enter your API Key in 【Settings】 (SiliconFlow, DeepSeek Official, Google Gemini, or Ollama), and enjoy!
 
