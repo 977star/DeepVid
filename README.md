@@ -7,7 +7,7 @@
 ### 🎬 新一代全能音视频深度精读与思维导图提炼神器
 **Next-Generation AI Video Deep Reading & Interactive Mindmap Distillation Engine**
 
-[🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 立即下载最新客户端 Releases](https://github.com/977star/DeepVid/releases) • [🛠️ 源码开发仓库 Studio](https://github.com/977star/DeepVid-Studio)
+[🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 立即下载最新客户端 Releases](https://github.com/977star/DeepVid/releases) • [💬 社区与反馈 (Issues)](https://github.com/977star/DeepVid/issues)
 
 <br/>
 
@@ -56,13 +56,6 @@
 1. 前往 **[Releases 页面](https://github.com/977star/DeepVid/releases)** 下载最新的 `DeepVid_2.2.0_aarch64.dmg`；
 2. 双击打开 DMG，将 **DeepVid.app** 拖入 **Applications (应用程序)** 文件夹；
 3. 打开应用，在【设置】中配置您的 API Key（支持 SiliconFlow 硅基流动、DeepSeek 官方直连、Google Gemini 或本地 Ollama），即可开始使用！
-
----
-
-## 💻 开发者与源码仓库
-
-如果您希望参与开发、贡献代码或自行从源码编译，请访问我们的开发构建仓库：
-👉 **[977star/DeepVid-Studio](https://github.com/977star/DeepVid-Studio)**
 
 ---
 
