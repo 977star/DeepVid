@@ -6,7 +6,7 @@
 
 ### 🎬 Next-Generation AI Video Deep Reading & Interactive Mindmap Distillation Engine
 
-[🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 Download Releases](https://github.com/977star/DeepVid/releases) • [🛠️ Source Code Studio](https://github.com/977star/DeepVid-Studio)
+[🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 Download Releases](https://github.com/977star/DeepVid/releases) • [💬 Community & Issues](https://github.com/977star/DeepVid/issues)
 
 <br/>
 
@@ -55,13 +55,6 @@ Traditional AI summaries often produce generic, robotic bullet points devoid of 
 1. Head to **[Releases Page](https://github.com/977star/DeepVid/releases)** and download `DeepVid_2.2.0_aarch64.dmg`;
 2. Open DMG and drag **DeepVid.app** into your **Applications** folder;
 3. Launch the app, enter your API Key in 【Settings】 (SiliconFlow, DeepSeek Official, Google Gemini, or Ollama), and enjoy!
-
----
-
-## 💻 Source Code & Development
-
-If you'd like to contribute or build from source, visit our development workshop repository:
-👉 **[977star/DeepVid-Studio](https://github.com/977star/DeepVid-Studio)**
 
 ---
 
