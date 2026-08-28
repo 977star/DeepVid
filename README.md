@@ -73,8 +73,8 @@
 
 | 操作系统 | 下载文件 | 说明 |
 | :--- | :--- | :--- |
-| 🍏 **macOS (苹果芯片)** | `DeepVid_2.2.0_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac |
-| 🪟 **Windows (64位)** | `DeepVid_2.2.0_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 |
+| 🍏 **macOS (苹果芯片)** | `DeepVid_2.2.1_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac |
+| 🪟 **Windows (64位)** | `DeepVid_2.2.1_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 |
 
 ---
 
