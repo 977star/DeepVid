@@ -2,10 +2,10 @@
 
 <img src="assets/logo.png" width="120" height="120" alt="DeepVid Logo" style="border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
 
-# 977Star✨ · 知影 (DeepVid)
+# 知影 (DeepVid)
 
 ### 🎬 把长视频变成图文杂志与思维导图的 AI 精读神器
-**告别枯燥流水账 · 保留关键画面演示 · 开箱即用 · 跨平台支持**
+**告别枯燥流水账 · 保留关键画面演示 · 图文深度精读 · 跨平台支持**
 
 [🇨🇳 简体中文](README.md) • [🇺🇸 English (Coming soon)](README.md) • [📥 立即下载客户端](https://github.com/977star/DeepVid/releases) • [💬 意见与反馈](https://github.com/977star/DeepVid/issues)
 
@@ -56,7 +56,7 @@
 - **💬 针对性 AI 追问抽屉**：对视频里的某行代码、某个参数或推导步骤有疑问？随时向 AI 追问。
 - **🌈 现代化排版与导出**：支持重点彩色提示卡片、斑马纹表格与代码高亮，可一键导出 Markdown 或整套带图文档。
 - **🎬 支持全平台音视频**：支持 YouTube、哔哩哔哩、抖音、TikTok、小红书以及本地 MP4 / MOV / MP3 等格式。
-- **⚡ 开箱即用与在线更新**：无需配置 Python、无需安装 FFmpeg，双击即用；软件内支持一键平滑自动更新。
+- **⚡ 免环境配置与在线更新**：无需安装 Python 或任何复杂环境，双击即可运行；软件内支持一键平滑自动更新。
 - **🔒 隐私与本地数据安全**：笔记与媒体文件全部保存在你的电脑本地，支持对接 DeepSeek、硅基流动、Gemini 或本地离线大模型（Ollama）。
 
 ---
