@@ -4,8 +4,7 @@
 
 # DeepVid (知影)
 
-### 🎬 AI Video Deep Reading & Interactive Mindmap Distillation Engine
-**No robotic summaries · High-fidelity visual keyframes · Illustrated notes · macOS & Windows**
+### 🎬 Next-Generation AI Video Deep Reading & Interactive Mindmap Distillation Engine
 
 [🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 Download Releases](https://github.com/977star/DeepVid/releases) • [💬 Community & Issues](https://github.com/977star/DeepVid/issues)
 
@@ -14,6 +13,7 @@
 [![Release](https://img.shields.io/github/v/release/977star/DeepVid?style=flat-square&color=blue)](https://github.com/977star/DeepVid/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-orange.svg?style=flat-square)](https://github.com/977star/DeepVid/releases)
+[![AI Engine](https://img.shields.io/badge/AI%20Engine-DeepSeek%20%7C%20Gemini%20%7C%20SiliconFlow-purple.svg?style=flat-square)](https://github.com/977star/DeepVid)
 
 </div>
 
@@ -23,31 +23,70 @@
 
 Traditional AI summaries often produce generic, robotic bullet points devoid of context and missing the most important aspect of video: **visual demonstrations and key frames**.
 
-**DeepVid (知影)** turns **1-hour videos into 5-minute illustrated magazine columns**:
-Paste a link or drop a local file to get **in-depth illustrated notes, chapter timeline, interactive mindmap, and full transcript**.
+**DeepVid (知影)** is crafted specifically for deep learners, researchers, creators, and professionals to redefine the video reading experience:
+
+* 🚀 **Coherent Long-Form Notes**: One-pass stream produces cohesive, in-depth Markdown columns;
+* 📸 **Smart Illustrated Snapshots**: Millisecond-accurate snapshot extraction deeply aligned with respective chapters;
+* 🌈 **Obsidian-Grade Callouts**: Multi-colored alert cards, zebra-striped tables, and code syntax highlighting;
+* 🌳 **Interactive Vector Mindmaps**: Markmap tree hierarchy with pan, zoom, collapse/expand, and SVG export;
+* 💬 **Deep-Dive AI Mentor**: Local RAG knowledge base for pinpoint questions regarding timestamps and code;
+* 📱 **LAN Cross-Device Sync**: Mobile QR scan reading and zero-click instant Markdown export.
 
 ---
 
-## 📥 Download
+## 🖼️ Feature Preview
 
-Grab the latest pre-built packages from **[GitHub Releases](https://github.com/977star/DeepVid/releases)**:
+<div align="center">
+
+| 📖 In-Depth Illustrated Columns | 🌳 Interactive Vector Mindmaps |
+| :---: | :---: |
+| *(Screenshot slot 1)* | *(Screenshot slot 2)* |
+
+| 🎬 Floating PiP Player | 💬 Contextual AI Deep Dive |
+| :---: | :---: |
+| *(Screenshot slot 3)* | *(Screenshot slot 4)* |
+
+</div>
+
+---
+
+## ✨ Features Breakdown
+
+| Feature | Description |
+| :--- | :--- |
+| **🎬 Universal Media Ingestion** | Native extraction for YouTube, Bilibili, TikTok, Douyin, Xiaohongshu (RED), and local MP4/MOV/MP3/M4A files. |
+| **🧠 Dual-Pipeline Distillation** | Switch freely between 🔥 **One-Pass Direct Stream (Recommended)** and ⚡ **Two-Step Modular**, unleashing **DeepSeek 128k context** power. |
+| **🌈 Rich Obsidian Callouts** | Native support for `ℹ️ NOTE`, `💡 TIP`, `📌 IMPORTANT`, `⚠️ WARNING`, `🚨 CAUTION`, and `🔥 DANGER` with language auto-adaptation. |
+| **📸 Multi-Tier Adaptive Visuals** | Smart dynamic keyframe sampling across ultra-short, short, medium, and long videos for magazine-quality illustrated notes. |
+| **🌳 Interactive Mindmaps** | Clear hierarchical mindmaps with drag/zoom and vector SVG export. |
+| **💬 Contextual AI Mentor** | Ask anything regarding code snippets, formulas, or timestamps with instant responses. |
+| **📱 LAN Sharing & Fast Export** | Read notes on mobile devices under the same Wi-Fi; export pure or illustrated Markdown instantly. |
+| **🔒 100% Private & Local** | All media chunks and notes stay on your local disk with optional local offline models (Ollama/LM Studio). |
+
+---
+
+## 📥 Download & Installation
+
+Grab the latest packages from **[GitHub Releases](https://github.com/977star/DeepVid/releases)**:
 
 | Platform | Installer | Description |
 | :--- | :--- | :--- |
 | 🍏 **macOS (Apple Silicon)** | `DeepVid_2.2.0_aarch64.dmg` | For Apple Silicon M1 / M2 / M3 / M4 Macs |
-| 🪟 **Windows (64-bit)** | `DeepVid_2.2.0_x64-setup.exe` | For Windows 10 / 11 64-bit |
+| 🪟 **Windows (64-bit)** | `DeepVid_2.2.0_x64-setup.exe` | For Windows 10 / 11 64-bit systems |
 
 ---
 
 ## 🚀 First-Launch Quick Guide
 
 ### 🍏 macOS ("App is damaged" prompt fix):
-- **Easiest (Right-click bypass)**:  
+- **Easiest (Right-click bypass · Recommended)**:  
   Hold `Control` key, right-click `DeepVid.app` ➔ click **Open** ➔ click **Open** in the dialog.
 - **Terminal command**:  
   ```bash
   sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
   ```
+
+---
 
 ### 🪟 Windows (SmartScreen prompt fix):
 - Click **"More info"** ➔ click **"Run anyway"**.
