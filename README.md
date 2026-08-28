@@ -1,42 +1,46 @@
 <div align="center">
 
-<img src="assets/logo.png" width="120" height="120" alt="DeepVid Logo" style="border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
+<img src="assets/logo.png" width="128" height="128" alt="DeepVid Logo" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
 
 # 知影 (DeepVid)
 
-### 🎬 把长视频变成图文杂志与思维导图的 AI 精读神器
-**告别枯燥流水账 · 保留关键画面演示 · 图文深度精读 · 跨平台支持**
+### 🎬 新一代全能音视频深度精读与思维导图提炼神器
+**Next-Generation AI Video Deep Reading & Interactive Mindmap Distillation Engine**
 
-[🇨🇳 简体中文](README.md) • [🇺🇸 English (Coming soon)](README.md) • [📥 立即下载客户端](https://github.com/977star/DeepVid/releases) • [💬 意见与反馈](https://github.com/977star/DeepVid/issues)
+[🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 立即下载最新客户端 Releases](https://github.com/977star/DeepVid/releases) • [💬 社区与反馈 (Issues)](https://github.com/977star/DeepVid/issues)
 
 <br/>
 
 [![Release](https://img.shields.io/github/v/release/977star/DeepVid?style=flat-square&color=blue)](https://github.com/977star/DeepVid/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-orange.svg?style=flat-square)](https://github.com/977star/DeepVid/releases)
+[![AI Engine](https://img.shields.io/badge/AI%20Engine-DeepSeek%20%7C%20Gemini%20%7C%20SiliconFlow-purple.svg?style=flat-square)](https://github.com/977star/DeepVid)
 
 </div>
 
 ---
 
-## 🌟 它能为你解决什么问题？
+## 🌟 为什么选择「知影 (DeepVid)」？
 
-平时看 1 小时的技术教程、公开课、会议录播或长视频，总是遇到这些痛点：
-- ❌ **纯文本 AI 总结太简略**：只有几句概括，遗漏了核心逻辑与推导过程；
-- ❌ **丢失关键画面**：黑板上的公式、代码实操、PPT 架构图完全看不到；
-- ❌ **重看视频太费时**：为了找某个知识点，反复拖动进度条。
+传统的 AI 视频总结往往只有寥寥几句泛泛而谈的纯文本，缺少上下文论据，更丢失了视频中最关键的**画面演示与操作细节**。
 
-**知影 (DeepVid)** 让你**「5 分钟读透 1 小时视频」**：
-粘贴视频链接或拖入本地文件，自动生成**图文并茂的杂志级深度笔记、核心大纲时间轴、交互式思维导图与完整逐字稿**。
+**知影 (DeepVid)** 专为深度学习与知识萃取而生，重新定义音视频精读体验：
+
+* 🚀 **告别碎片化总结**：单轮对话一体直出深度图文专栏，逻辑一气呵成；
+* 📸 **实拍画面胶卷混排**：毫秒级精准抓取关键帧，段落与实拍画面深度呼应；
+* 🌈 **Obsidian 级高保真排版**：原生支持彩色 Callout 提示框、斑马纹表格与代码高亮；
+* 🌳 **交互式树状思维导图**：Markmap 矢量导图，支持自由缩放、分支折叠与 SVG 导出；
+* 💬 **知影 AI 全文深度追问**：基于全片字幕与深度笔记的局部 RAG 追问导师；
+* 📱 **局域网跨端协同分享**：手机扫码即读，0 秒免开极速复制与导出。
 
 ---
 
-## 🖼️ 软件功能预览
+## 🖼️ 软件实机预览
 
 <!-- 截图展示区预留 -->
 <div align="center">
 
-| 📖 图文并茂的深度专栏精读 | 🌳 交互式矢量思维导图 |
+| 📖 深度图文精读专栏 | 🌳 交互式矢量思维导图 |
 | :---: | :---: |
 | *(软件实机截图位置 1)* | *(软件实机截图位置 2)* |
 
@@ -48,33 +52,35 @@
 
 ---
 
-## ✨ 核心功能亮点
+## ✨ 核心特性
 
-- **📸 实拍画面胶卷混排**：智能捕捉视频高光画面与操作截图，段落与实操画面一一对应，看笔记就像看专业图文专栏。
-- **🌳 交互式思维导图**：自动生成层级分明的知识架构图，支持自由缩放、分支折叠与高清图片导出。
-- **🎬 悬浮小窗随心对照**：下滑阅读笔记时，视频自动无缝贴边悬浮，随时对照画面与字幕。
-- **💬 针对性 AI 追问抽屉**：对视频里的某行代码、某个参数或推导步骤有疑问？随时向 AI 追问。
-- **🌈 现代化排版与导出**：支持重点彩色提示卡片、斑马纹表格与代码高亮，可一键导出 Markdown 或整套带图文档。
-- **🎬 支持全平台音视频**：支持 YouTube、哔哩哔哩、抖音、TikTok、小红书以及本地 MP4 / MOV / MP3 等格式。
-- **⚡ 免环境配置与在线更新**：无需安装 Python 或任何复杂环境，双击即可运行；软件内支持一键平滑自动更新。
-- **🔒 隐私与本地数据安全**：笔记与媒体文件全部保存在你的电脑本地，支持对接 DeepSeek、硅基流动、Gemini 或本地离线大模型（Ollama）。
+| 功能模块 | 亮点解析 |
+| :--- | :--- |
+| **🎬 全能音视频源解析** | 原生支持 YouTube、哔哩哔哩 (Bilibili)、TikTok、抖音、小红书以及本地 MP4/MOV/MP3/M4A 拖拽解析。 |
+| **🧠 精读双管线架构** | 🔥 **全局连贯精读 (One-Pass Stream · 首选推荐)** 与 ⚡ **超长视频分段精酿 (Two-Step Modular)** 自由切换，深度释放 **DeepSeek 128k 超大上下文** 潜力。 |
+| **🌈 高保真 Callouts** | 原生支持 `ℹ️ 核心提示`、`💡 技巧建议`、`📌 关键重点`、`⚠️ 注意事项`、`🚨 避坑预警`、`🔥 高危风险` 等多色毛玻璃卡片，支持中英文自适应。 |
+| **📸 智能多阶自适应抽帧** | 覆盖超短/短/中/长视频全时长智能自适应采样，图文并茂，完美还原专栏杂志级阅读质感。 |
+| **🌳 交互式思维导图** | 自动生成层级分明的交互式思维导图，支持平移、滚轮缩放、节点折叠与矢量 SVG 导出。 |
+| **💬 知影 AI 深度追问导师** | 随时就视频中的代码、参数、公式或具体时间戳进行精准深度追问。 |
+| **📱 局域网协同与极速导出** | 手机/平板同一 Wi-Fi 下扫码即读；知识库列表支持 0 秒免开一键复制 Markdown 或一键导出图文（实拍图自动归档至 `images/` 目录）。 |
+| **🔒 100% 离线隐私安全** | 所有音视频数据与精读笔记均存储在您的本地磁盘，支持对接本地 Ollama / LM Studio 离线模型。 |
 
 ---
 
-## 📥 客户端下载
+## 📥 下载与安装
 
 前往 👉 **[GitHub Releases 最新版本下载页面](https://github.com/977star/DeepVid/releases)** 获取对应系统的安装包：
 
 | 操作系统 | 下载文件 | 说明 |
 | :--- | :--- | :--- |
 | 🍏 **macOS (苹果芯片)** | `DeepVid_2.2.0_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac |
-| 🪟 **Windows (64位)** | `DeepVid_2.2.0_x64-setup.exe` | 适用于 Windows 10 / 11 64位电脑 |
+| 🪟 **Windows (64位)** | `DeepVid_2.2.0_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 |
 
 ---
 
-## 🚀 首次打开指南（超简单解决系统拦截）
+## 🚀 首次打开指南（超简单解决系统安全提示）
 
-由于知影是开源免签名应用，系统自带的安全防护机制可能会在首次打开时弹出提示，按照以下步骤即可 1 秒打开：
+由于知影是开源免签名应用，系统自带的安全防护机制可能会在首次打开时弹出提示，按照以下步骤即可秒级打开：
 
 ### 🍏 macOS 用户提示「已损坏」或「无法打开」：
 > 💡 苹果 Gatekeeper 门禁对所有开源未签名软件的默认拦截，应用本身 100% 安全纯净。
@@ -86,27 +92,16 @@
   ```bash
   sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
   ```
-- **安装包内置修复**：  
-  双击 DMG 安装镜像中自带的「损坏修复.command」一键工具。
 
 ---
 
 ### 🪟 Windows 用户提示「Windows 已保护你的电脑」：
-> 💡 微软 SmartScreen 筛选器对新发布软件的通用安全提示。
+> 💡 微软 SmartScreen 筛选器对新发布开源软件的通用安全提示。
 
-- 遇到蓝底拦截弹窗时，只需点击弹窗上的 **「更多信息」 ➔ 点击「仍要运行」** 即可立即进入应用。
-
----
-
-## 🔄 应用内一键升级
-
-知影客户端内置了静默更新机制：
-1. 当有新版本发布时，客户端顶部导航栏会自动亮起更新提示；
-2. 点击【一键更新】，系统将在后台静默下载最新版本；
-3. 下载完成后，根据你的空闲时间点击【重启更新】，即可无缝升级到最新版本，无需手动重新下载安装包。
+- 遇到蓝底拦截弹窗时，只需点击弹窗上的 **「更多信息」 ➔ 点击「仍要运行」** 即可一秒进入应用。
 
 ---
 
 ## 📄 开源许可证
 
-本项目基于 [MIT License](LICENSE) 协议发布，免费使用。
+本项目基于 [MIT License](LICENSE) 协议发布。
