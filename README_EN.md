@@ -71,8 +71,8 @@ Grab the latest packages from **[GitHub Releases](https://github.com/977star/Dee
 
 | Platform | Installer | Description |
 | :--- | :--- | :--- |
-| 🍏 **macOS (Apple Silicon)** | `DeepVid_2.2.3_aarch64.dmg` | For Apple Silicon M1 / M2 / M3 / M4 Macs |
-| 🪟 **Windows (64-bit)** | `DeepVid_2.2.3_x64-setup.exe` | For Windows 10 / 11 64-bit systems |
+| 🍏 **macOS (Apple Silicon)** | `DeepVid_2.2.5_aarch64.dmg` | For Apple Silicon M1 / M2 / M3 / M4 Macs |
+| 🪟 **Windows (64-bit)** | `DeepVid_2.2.5_x64-setup.exe` | For Windows 10 / 11 64-bit systems |
 
 ---
 
