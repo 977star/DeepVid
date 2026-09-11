@@ -30,66 +30,75 @@ Traditional AI summaries often produce generic, robotic bullet points devoid of 
 * 🌈 **Obsidian-Grade Callouts**: Multi-colored alert cards, zebra-striped tables, and code syntax highlighting;
 * 🌳 **Interactive Vector Mindmaps**: Markmap tree hierarchy with pan, zoom, collapse/expand, and SVG export;
 * 💬 **Deep-Dive AI Mentor**: Local RAG knowledge base for pinpoint questions regarding timestamps and code;
-* 📱 **LAN Cross-Device Sync**: Mobile QR scan reading and zero-click instant Markdown export.
+* 🛡️ **Single-Instance Protection**: Enforces a single instance, automatically restoring and focusing the running window upon duplicate launch;
+* 📱 **LAN Cross-Device Sync**: Mobile QR scan reading and zero-click instant Markdown/illustrated export.
 
 ---
 
-## 🖼️ Feature Preview
+## 🖼️ Application Showcase
 
+<!-- Screenshot showcase placeholders -->
 <div align="center">
 
-| 📖 In-Depth Illustrated Columns | 🌳 Interactive Vector Mindmaps |
+| 📖 Illustrated Long-Form Digest | 🌳 Interactive Vector Mindmap |
 | :---: | :---: |
-| *(Screenshot slot 1)* | *(Screenshot slot 2)* |
+| *(Screenshot Placeholder 1)* | *(Screenshot Placeholder 2)* |
 
-| 🎬 Floating PiP Player | 💬 Contextual AI Deep Dive |
+| 🎬 Widescreen Dual-Pane Workspace | 💬 Pinpoint Video AI Mentor |
 | :---: | :---: |
-| *(Screenshot slot 3)* | *(Screenshot slot 4)* |
+| *(Screenshot Placeholder 3)* | *(Screenshot Placeholder 4)* |
 
 </div>
 
 ---
 
-## ✨ Features Breakdown
+## ✨ Core Features
 
-| Feature | Description |
+| Feature Module | Highlights |
 | :--- | :--- |
-| **🎬 Universal Media Ingestion** | Native extraction for YouTube, Bilibili, TikTok, Douyin, Xiaohongshu (RED), and local MP4/MOV/MP3/M4A files. |
-| **🧠 Dual-Pipeline Distillation** | Switch freely between 🔥 **One-Pass Direct Stream (Recommended)** and ⚡ **Two-Step Modular**, unleashing **DeepSeek 128k context** power. |
-| **🌈 Rich Obsidian Callouts** | Native support for `ℹ️ NOTE`, `💡 TIP`, `📌 IMPORTANT`, `⚠️ WARNING`, `🚨 CAUTION`, and `🔥 DANGER` with language auto-adaptation. |
-| **📸 Multi-Tier Adaptive Visuals** | Smart dynamic keyframe sampling across ultra-short, short, medium, and long videos for magazine-quality illustrated notes. |
-| **🌳 Interactive Mindmaps** | Clear hierarchical mindmaps with drag/zoom and vector SVG export. |
-| **💬 Contextual AI Mentor** | Ask anything regarding code snippets, formulas, or timestamps with instant responses. |
-| **📱 LAN Sharing & Fast Export** | Read notes on mobile devices under the same Wi-Fi; export pure or illustrated Markdown instantly. |
-| **🔒 100% Private & Local** | All media chunks and notes stay on your local disk with optional local offline models (Ollama/LM Studio). |
+| **🎬 Universal Media Parser** | YouTube, Bilibili, TikTok, Douyin, Xiaohongshu, and local MP4/MOV/MP3/M4A media files. |
+| **🧠 Dual Distillation Pipelines** | 🔥 **One-Pass Stream (Recommended)** & ⚡ **Two-Step Modular Pipeline** for long videos, unleashing **DeepSeek 128k context** capabilities. |
+| **🌈 Obsidian-Style Callouts** | Native support for Tips, Insights, Warnings, Cautions, and Danger callouts with adaptive styling. |
+| **📸 Adaptive Keyframe Extraction** | Multi-tier adaptive snapshot extraction avoiding black intro frames for magazine-quality articles. |
+| **🌳 Interactive Mindmaps** | Clear hierarchical mindmaps with drag-and-drop panning, scroll wheel zooming, branch collapsing, and SVG export. |
+| **💬 Interactive AI Mentor** | Ask specific questions about code snippets, parameters, mathematical formulas, or timestamps. |
+| **🖥️ 1440×900 Widescreen Layout** | Adaptive dual-pane workspace fully utilizing 100% viewport height without cramped borders. |
+| **🛡️ Single-Instance Guard** | Native single-instance daemon brings running windows to the foreground on duplicate launches. |
+| **📦 Multi-Mode Export** | Nested folder, unified image folder, same-name export, and pure text export formats. |
+| **🔒 100% Offline & Private** | Local storage for media and digests; supports local Ollama / LM Studio integration. |
 
 ---
 
-## 📥 Download & Installation
+## 📥 Downloads & Installation
 
-Grab the latest packages from **[GitHub Releases](https://github.com/977star/DeepVid/releases)**:
+Visit 👉 **[GitHub Releases Page](https://github.com/977star/DeepVid/releases)** for all official release packages:
 
-| Platform | Installer | Description |
-| :--- | :--- | :--- |
-| 🍏 **macOS (Apple Silicon)** | `DeepVid_2.2.6_aarch64.dmg` | For Apple Silicon M1 / M2 / M3 / M4 Macs |
-| 🪟 **Windows (64-bit)** | `DeepVid_2.2.6_x64-setup.exe` | For Windows 10 / 11 64-bit systems |
-
----
-
-## 🚀 First-Launch Quick Guide
-
-### 🍏 macOS ("App is damaged" prompt fix):
-- **Easiest (Right-click bypass · Recommended)**:  
-  Hold `Control` key, right-click `DeepVid.app` ➔ click **Open** ➔ click **Open** in the dialog.
-- **Terminal command**:  
-  ```bash
-  sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
-  ```
+| Platform | Latest Package (v2.4.9) | Architecture | Direct Download |
+| :--- | :--- | :--- | :--- |
+| 🍏 **macOS (Apple Silicon)** | `DeepVid_2.4.9_aarch64.dmg` | Apple Silicon Mac (M1 / M2 / M3 / M4, macOS 12.0+) | [📥 Download DMG](https://github.com/977star/DeepVid/releases/download/v2.4.9/DeepVid_2.4.9_aarch64.dmg) |
+| 🪟 **Windows (64-bit)** | `DeepVid_2.4.9_x64-setup.exe` | Windows 10 / 11 64-bit | [📥 Download EXE](https://github.com/977star/DeepVid/releases/download/v2.4.9/DeepVid_2.4.9_x64-setup.exe) |
 
 ---
 
-### 🪟 Windows (SmartScreen prompt fix):
-- Click **"More info"** ➔ click **"Run anyway"**.
+## 🚀 First Launch Guide (System Security Prompts)
+
+Since DeepVid is an open-source, community-distributed app without paid commercial signing certificates, system security features may prompt on first launch:
+
+### 🍏 macOS: "App is damaged and can't be opened"
+> 💡 Apple Gatekeeper default protection for open-source applications. The app is 100% safe.
+
+- **Option 1 (Recommended · Mouse only)**:  
+  After dragging into Applications, **hold down the `Control` key, right-click the `DeepVid` icon ➔ click "Open" ➔ click "Open" again in the dialog**.
+- **Option 2 (Terminal)**:  
+  Run this command in Terminal:  
+  `sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app`
+
+---
+
+### 🪟 Windows: "Windows protected your PC"
+> 💡 Microsoft SmartScreen generic notification for new open-source executables.
+
+- Click **"More info" ➔ click "Run anyway"** to launch immediately.
 
 ---
 
