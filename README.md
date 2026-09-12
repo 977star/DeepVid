@@ -74,10 +74,10 @@
 
 前往 👉 **[GitHub Releases 最新版本发布页](https://github.com/977star/DeepVid/releases)** 获取对应系统的安装包：
 
-| 操作系统 | 最新安装包文件 (v2.5.4) | 架构与运行环境 | 校验与下载 |
+| 操作系统 | 最新安装包文件 (v2.5.5) | 架构与运行环境 | 校验与下载 |
 | :--- | :--- | :--- | :--- |
-| 🍏 **macOS (苹果芯片)** | `DeepVid_2.5.4_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac (macOS 12.0+) | [📥 立即下载 (DMG)](https://github.com/977star/DeepVid/releases/download/v2.5.4/DeepVid_2.5.4_aarch64.dmg) |
-| 🪟 **Windows (64位)** | `DeepVid_2.5.4_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 | [📥 立即下载 (EXE)](https://github.com/977star/DeepVid/releases/download/v2.5.4/DeepVid_2.5.4_x64-setup.exe) |
+| 🍏 **macOS (苹果芯片)** | `DeepVid_2.5.5_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac (macOS 12.0+) | [📥 立即下载 (DMG)](https://github.com/977star/DeepVid/releases/download/v2.5.5/DeepVid_2.5.5_aarch64.dmg) |
+| 🪟 **Windows (64位)** | `DeepVid_2.5.5_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 | [📥 立即下载 (EXE)](https://github.com/977star/DeepVid/releases/download/v2.5.5/DeepVid_2.5.5_x64-setup.exe) |
 
 ---
 
