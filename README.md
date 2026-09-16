@@ -77,7 +77,7 @@
 | 操作系统 | 最新安装包文件 (v2.7.0) | 架构与运行环境 | 校验与下载 |
 | :--- | :--- | :--- | :--- |
 | 🍏 **macOS (苹果芯片)** | `DeepVid_2.7.0_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac (macOS 12.0+) | [📥 立即下载 (DMG)](https://github.com/977star/DeepVid/releases/download/v2.7.0/DeepVid_2.7.0_aarch64.dmg) |
-| 🪟 **Windows (64位)** | `DeepVid_2.7.0_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 | [📥 立即下载 (EXE)](https://github.com/977star/DeepVid/releases/download/v2.7.0/DeepVid_2.7.0_x64-setup.exe) |
+| 🪟 **Windows (64位)** | `DeepVid_2.7.1_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 | [📥 立即下载 (EXE)](https://github.com/977star/DeepVid/releases/download/v2.7.1/DeepVid_2.7.1_x64-setup.exe) |
 
 ---
 

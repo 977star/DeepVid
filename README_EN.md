@@ -76,7 +76,7 @@ Visit 👉 **[GitHub Releases Page](https://github.com/977star/DeepVid/releases)
 | Platform | Latest Package (v2.7.0) | Architecture | Direct Download |
 | :--- | :--- | :--- | :--- |
 | 🍏 **macOS (Apple Silicon)** | `DeepVid_2.7.0_aarch64.dmg` | Apple Silicon Mac (M1 / M2 / M3 / M4, macOS 12.0+) | [📥 Download DMG](https://github.com/977star/DeepVid/releases/download/v2.7.0/DeepVid_2.7.0_aarch64.dmg) |
-| 🪟 **Windows (64-bit)** | `DeepVid_2.7.0_x64-setup.exe` | Windows 10 / 11 64-bit | [📥 Download EXE](https://github.com/977star/DeepVid/releases/download/v2.7.0/DeepVid_2.7.0_x64-setup.exe) |
+| 🪟 **Windows (64-bit)** | `DeepVid_2.7.1_x64-setup.exe` | Windows 10 / 11 64-bit | [📥 Download EXE](https://github.com/977star/DeepVid/releases/download/v2.7.1/DeepVid_2.7.1_x64-setup.exe) |
 
 ---
 
