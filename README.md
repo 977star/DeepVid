@@ -1,111 +1,111 @@
 <div align="center">
 
-<img src="assets/logo.png" width="128" height="128" alt="DeepVid Logo" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+<img src="assets/logo.png" width="120" height="120" alt="DeepVid Logo" style="border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
 
 # 知影 (DeepVid)
 
-### 🎬 新一代全能音视频深度精读与思维导图提炼神器
+### 全能音视频深度精读与思维导图提炼工作台
 **Next-Generation AI Video Deep Reading & Interactive Mindmap Distillation Engine**
 
-[🇨🇳 简体中文](README.md) • [🇺🇸 English](README_EN.md) • [📥 立即下载最新客户端 Releases](https://github.com/977star/DeepVid/releases) • [💬 社区与反馈 (Issues)](https://github.com/977star/DeepVid/issues)
+[简体中文](README.md) • [English](README_EN.md) • [下载最新版 Releases](https://github.com/977star/DeepVid/releases) • [问题反馈 Issues](https://github.com/977star/DeepVid/issues)
 
 <br/>
 
 [![Release](https://img.shields.io/github/v/release/977star/DeepVid?style=flat-square&color=blue)](https://github.com/977star/DeepVid/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-orange.svg?style=flat-square)](https://github.com/977star/DeepVid/releases)
-[![AI Engine](https://img.shields.io/badge/AI%20Engine-DeepSeek%20%7C%20Gemini%20%7C%20SiliconFlow-purple.svg?style=flat-square)](https://github.com/977star/DeepVid)
+[![Engine](https://img.shields.io/badge/Engine-Tauri%202.0%20%7C%20FastAPI%20%7C%20React%2019-purple.svg?style=flat-square)](https://github.com/977star/DeepVid)
 
 </div>
 
 ---
 
-## 🌟 为什么选择「知影 (DeepVid)」？
+## 为什么选择知影？
 
-传统的 AI 视频总结往往只有寥寥几句泛泛而谈的纯文本，缺少上下文论据，更丢失了视频中最关键的**画面演示与操作细节**。
+传统的 AI 视频摘要往往只给出泛泛而谈的几句纯文本，缺少上下文逻辑，更丢失了视频中最关键的**画面细节、板书演示与操作过程**。
 
-**知影 (DeepVid)** 专为深度学习、研报提炼、课程消化与知识萃取而生，重新定义音视频精读体验：
+**知影 (DeepVid)** 专为深度学习、课程消化、研报拆解与专业知识萃取而生，打造杂志级图文并茂的音视频精读工作台：
 
-* 🚀 **告别碎片化总结**：单轮对话一体直出万字深度图文专栏，逻辑一气呵成；
-* 📸 **实拍画面胶卷混排**：毫秒级精准抓取关键帧，段落论点与实拍画面深度互为呼应；
-* 🌈 **Obsidian 级高保真排版**：原生支持多色 Callout 提示框、斑马纹表格与高亮代码块；
-* 🌳 **交互式树状思维导图**：Markmap 矢量导图，支持自由缩放、分支折叠与 SVG 无损导出；
-* 💬 **知影 AI 全文深度追问**：基于全片字幕与深度笔记的局部 RAG 追问导师；
-* 🛡️ **单实例 (Single-Instance) 运行守护**：原生拦截重复点击，已有窗口秒级唤醒置顶，杜绝后台多开与托盘堆叠；
-* 📱 **局域网跨端协同分享**：手机扫码即读，0 秒免开极速复制与多模式图文导出。
+* **告别碎片化速览**：长上下文单轮直出万字深度长文专栏，章节结构连贯，论据扎实；
+* **关键帧实拍混排**：毫秒级精准自适应抽帧，段落观点与实拍画面深度呼应，自动避开片头黑屏；
+* **Obsidian 级高保真排版**：原生渲染多色 Callout 提示框、斑马纹数据表格与代码高亮块；
+* **交互式矢量思维导图**：Markmap 树状导图，支持自由平移缩放、节点收起展开与 SVG 矢量导出；
+* **本地离线语音识别 (ASR)**：内置轻量高效的 sherpa-onnx 离线语音引擎，零上传、无门槛转写本地或无字幕音视频；
+* **全文细节 AI 深度追问**：基于全片字幕与深度笔记的局部 RAG 追问导师，随时解答公式、代码与参数疑问；
+* **原生 MCP 知识库支持**：内嵌 Model Context Protocol 标准服务，为 Cursor、Windsurf、Claude 等外部 Agent 提供本地音视频资产与精读笔记检索调度能力；
+* **灵动音频胶囊播放器**：页面下滑吸顶播放，可一键收拢为极简音频胶囊，阅读空间 100% 释放；
+* **局域网跨端无缝协同**：手机端扫码免开即读，支持富文本、独立文件夹归档与多格式 Markdown 导出。
 
 ---
 
-## 🖼️ 软件实机预览
+## 软件实机预览
 
-<!-- 截图展示区预留：后续替换为真实高清截图 -->
 <div align="center">
 
-| 📖 深度图文精读专栏 | 🌳 交互式矢量思维导图 |
+| 深度图文精读专栏 | 交互式矢量思维导图 |
 | :---: | :---: |
-| *(软件实机截图位置 1)* | *(软件实机截图位置 2)* |
+| *(实机截图展示区)* | *(实机截图展示区)* |
 
-| 🎬 沉浸双栏宽屏工作台 | 💬 针对视频细节的 AI 深度追问 |
+| 宽屏双栏阅读工作台 | 针对视频细节的精准 AI 追问 |
 | :---: | :---: |
-| *(软件实机截图位置 3)* | *(软件实机截图位置 4)* |
+| *(实机截图展示区)* | *(实机截图展示区)* |
 
 </div>
 
 ---
 
-## ✨ 核心特性
+## 核心特性
 
 | 功能模块 | 亮点解析 |
 | :--- | :--- |
-| **🎬 全能音视频源解析** | 原生支持 YouTube、哔哩哔哩 (Bilibili)、TikTok、抖音、小红书以及本地 MP4/MOV/MP3/M4A 拖拽极速提炼。 |
-| **🧠 精读双管线引擎** | 🔥 **全局连贯精读 (One-Pass Stream · 首选推荐)** 与 ⚡ **超长视频分段精酿 (Two-Step Modular)** 自由切换，深度释放 **DeepSeek 128k 超大上下文** 潜力。 |
-| **🌈 高保真 Callouts** | 原生支持 `ℹ️ 核心提示`、`💡 技巧建议`、`📌 关键重点`、`⚠️ 注意事项`、`🚨 避坑预警`、`🔥 高危风险` 等多色毛玻璃卡片，中英文智能排版。 |
-| **📸 智能多阶自适应抽帧** | 覆盖超短/短/中/长视频全时长智能自适应采样，智能避开片头黑屏，完美呈现专栏杂志级图文质感。 |
-| **🌳 交互式思维导图** | 自动萃取层级分明的交互式思维导图，支持平移、滚轮缩放、节点收折展开与矢量 SVG 导出。 |
-| **💬 知影 AI 深度追问导师** | 随时就视频中的代码、参数、公式或具体时间戳进行精准深度追问，答疑释惑。 |
-| **🖥️ 黄金宽屏智能适配** | 桌面端原生适配 1440×900 黄金大视野，双栏工作台无缝利用 100% 视口高度，告别狭窄拥挤。 |
-| **🛡️ 单实例运行守护** | 原生注入 Single-Instance 进程守护，重复点击快捷方式自动激活已有窗口，绝无重复进程或托盘堆叠。 |
-| **📦 知识库与多样化导出** | 知识库列表支持 0 秒免开一键复制 Markdown 或一键导出图文（支持独立嵌套文件夹、图片统一归档、同名导出及纯文本模式）。 |
-| **🔒 100% 离线隐私安全** | 音视频流与精读成果全部存储于本地，支持直连本地 Ollama / LM Studio 等私有模型，数据不上云。 |
+| **多源媒体解析** | 原生支持 YouTube、哔哩哔哩 (Bilibili)、TikTok、抖音、小红书，以及本地 MP4、MOV、MP3、M4A 等音视频文件的拖拽极速提炼。 |
+| **双管线精读引擎** | **全局连贯精读 (One-Pass Stream)** 与 **超长视频分步提炼 (Two-Step Modular)** 自由切换，深度释放大模型超长上下文能力。 |
+| **离线 ASR 语音识别** | 集成 sherpa-onnx 离线推理引擎与 Silero VAD 语音断句，纯本地毫秒级提取音轨文本，隐私绝对安全。 |
+| **多阶自适应抽帧** | 根据视频时长自适应阶梯采样，智能跳过黑屏片头，呈现专栏杂志级图文质感。 |
+| **Obsidian 规范 Callout** | 原生解析展示 Note、Tip、Important、Warning、Caution、Danger 等多色卡片。 |
+| **交互式矢量思维导图** | 自动提炼层级分明的交互式思维导图，支持平移、滚轮缩放、节点收展及矢量 SVG / Markdown 导出。 |
+| **原生 MCP 知识库** | 遵循开放 Model Context Protocol 协议，支持作为外部 AI 编程工具与知识助手的本地数据底座。 |
+| **单实例进程守护** | 原生 Single-Instance 窗口守护，防多开与托盘堆叠，重复启动时平滑唤醒置顶已有窗口。 |
+| **多样化知识导出** | 支持独立嵌套文件夹、图片统一归档、同名导出及纯文本模式，零秒复制或分享至本地知识库。 |
+| **本地隐私与离线兼容** | 媒体切片与精读成果 100% 存储于本机；支持直连 Ollama、LM Studio 等私有化本地大模型。 |
 
 ---
 
-## 📥 下载与安装
+## 下载与安装
 
-前往 👉 **[GitHub Releases 最新版本发布页](https://github.com/977star/DeepVid/releases)** 获取对应系统的安装包：
+前往 **[GitHub Releases 最新发布页](https://github.com/977star/DeepVid/releases)** 获取对应系统的官方安装包：
 
-| 操作系统 | 最新安装包文件 (v2.7.0) | 架构与运行环境 | 校验与下载 |
+| 操作系统 | 适用架构与环境 | 安装包格式 | 获取方式 |
 | :--- | :--- | :--- | :--- |
-| 🍏 **macOS (苹果芯片)** | `DeepVid_2.7.0_aarch64.dmg` | 适用于 M1 / M2 / M3 / M4 系列 Mac (macOS 12.0+) | [📥 立即下载 (DMG)](https://github.com/977star/DeepVid/releases/download/v2.7.0/DeepVid_2.7.0_aarch64.dmg) |
-| 🪟 **Windows (64位)** | `DeepVid_2.7.1_x64-setup.exe` | 适用于 Windows 10 / 11 64位系统 | [📥 立即下载 (EXE)](https://github.com/977star/DeepVid/releases/download/v2.7.1/DeepVid_2.7.1_x64-setup.exe) |
+| **macOS (Apple Silicon)** | M1 / M2 / M3 / M4 系列芯片 (macOS 12.0+) | `.dmg` 拖拽安装镜像 | [下载 macOS 客户端](https://github.com/977star/DeepVid/releases/latest) |
+| **Windows (64位)** | Windows 10 / 11 64位系统 | `.exe` 标准安装包 | [下载 Windows 客户端](https://github.com/977star/DeepVid/releases/latest) |
 
 ---
 
-## 🚀 首次打开指南（超简单解决系统安全提示）
+## 首次打开说明 (系统安全提示处理)
 
-由于知影是开源免签名客户端，系统自带的安全防护机制可能会在首次打开时弹出提示，按照以下步骤即可秒级打开：
+知影是开源免费分发的客户端，未购买商业开发者证书，部分操作系统在首次启动时可能会弹出安全拦截提示，可通过以下方法快速打开：
 
-### 🍏 macOS 用户提示「已损坏」或「无法打开」：
-> 💡 苹果 Gatekeeper 门禁对所有开源未签名应用的默认拦截，应用本身 100% 安全纯净。
+### macOS 提示「已损坏」或「无法打开」
+> 苹果 Gatekeeper 门禁对所有开源未签名应用的通用机制，应用本身安全纯净。
 
-- **方法一（纯鼠标 0 命令 · 最推荐）**：  
-  将应用拖入「应用程序」后，**按住键盘 `Control` 键不放，鼠标右键点击 `DeepVid` 图标 ➔ 点击「打开」➔ 在弹窗中再次点击「打开」**，即可永久信任并秒开！
-- **方法二（终端一键解锁）**：  
-  打开系统的「终端 (Terminal)」，粘贴并运行以下命令即可：
+- **方法一（推荐 · 纯鼠标操作）**：  
+  将应用拖入「应用程序」后，按住键盘 **Control** 键不放，鼠标右键点击 **DeepVid** 图标，在菜单中点击 **打开**，随后在确认弹窗中再次点击 **打开** 即可完成永久信任。
+- **方法二（终端一键解除隔离）**：  
+  打开系统的「终端 (Terminal)」，执行以下命令：
   ```bash
   sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
   ```
 
 ---
 
-### 🪟 Windows 用户提示「Windows 已保护你的电脑」：
-> 💡 微软 SmartScreen 筛选器对新发布开源软件的通用安全提示。
+### Windows 提示「Windows 已保护你的电脑」
+> 微软 SmartScreen 筛选器对新发布开源软件的通用保护提示。
 
-- **方法一**：  
-  遇到蓝底拦截弹窗时，点击 **「更多信息」 ➔ 点击「仍要运行」** 即可一秒进入！
+- 点击弹窗中的 **更多信息**，随后点击 **仍要运行** 即可正常进入应用。
 
 ---
 
-## 📄 开源许可证
+## 开源协议
 
-本项目基于 [MIT License](LICENSE) 协议发布。
+本项目遵循 [MIT License](LICENSE) 开源协议。
