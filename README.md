@@ -74,16 +74,15 @@
 
 ---
 
-## 首次打开指南
+## 首次打开指南 (仅限测试版)
 
 ### macOS 提示「已损坏」或「无法打开」
 
-打开系统 **「终端 (Terminal)」**，复制并运行以下命令：
+打开系统 **「终端 (Terminal)」**，运行以下命令（需输入电脑密码）：
 
 ```bash
 sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
 ```
-*(粘贴后按回车，输入电脑密码即可正常秒开)*
 
 <sub>*注：苹果 Gatekeeper 门禁对所有开源未签名应用的通用拦截，应用本身安全纯净。*</sub>
 
