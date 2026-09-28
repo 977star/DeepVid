@@ -4,37 +4,39 @@
 
 # 知影 (DeepVid)
 
-### 全能音视频深度精读与思维导图提炼工作台
-**Next-Generation AI Video Deep Reading & Interactive Mindmap Distillation Engine**
+### 新一代音视频深度精读与思维导图提炼神器
+**像读杂志专栏一样轻松精读音视频 · 图文并茂 · 交互导图 · 本地离线转写**
 
-[简体中文](README.md) • [English](README_EN.md) • [下载最新版 Releases](https://github.com/977star/DeepVid/releases) • [问题反馈 Issues](https://github.com/977star/DeepVid/issues)
+[简体中文](README.md) • [English](README_EN.md) • [下载最新版客户端 (v2.8.11)](https://github.com/977star/DeepVid/releases/latest) • [问题反馈](https://github.com/977star/DeepVid/issues)
 
 <br/>
 
 [![Release](https://img.shields.io/github/v/release/977star/DeepVid?style=flat-square&color=blue)](https://github.com/977star/DeepVid/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-orange.svg?style=flat-square)](https://github.com/977star/DeepVid/releases)
-[![Engine](https://img.shields.io/badge/Engine-Tauri%202.0%20%7C%20FastAPI%20%7C%20React%2019-purple.svg?style=flat-square)](https://github.com/977star/DeepVid)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-orange.svg?style=flat-square)](https://github.com/977star/DeepVid/releases)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local--First-brightgreen.svg?style=flat-square)](https://github.com/977star/DeepVid)
 
 </div>
 
 ---
 
-## 为什么选择知影？
+## 为什么你需要知影？
 
-传统的 AI 视频摘要往往只给出泛泛而谈的几句纯文本，缺少上下文逻辑，更丢失了视频中最关键的**画面细节、板书演示与操作过程**。
+在快节奏的学习与工作中，你是否也经常遇到这些看视频的困扰：
 
-**知影 (DeepVid)** 专为深度学习、课程消化、研报拆解与专业知识萃取而生，打造杂志级图文并茂的音视频精读工作台：
+- **长视频太耗时间**：1~2 小时的技术讲座、公开课或研讨会，根本抽不出完整时间逐秒看完；
+- **普通 AI 总结太浅薄**：市面上的 AI 摘要往往只有几句流水账，关键的推导过程、PPT 板书、界面演示全被丢弃；
+- **生肉视频没有字幕**：外语视频或方言讲座听得费劲，找不到字幕又缺乏快捷的提取工具；
+- **学过记不住、查不到**：看视频时觉得有收获，过后想查某个具体参数或结论，翻遍进度条都找不到。
 
-* **告别碎片化速览**：长上下文单轮直出万字深度长文专栏，章节结构连贯，论据扎实；
-* **关键帧实拍混排**：毫秒级精准自适应抽帧，段落观点与实拍画面深度呼应，自动避开片头黑屏；
-* **Obsidian 级高保真排版**：原生渲染多色 Callout 提示框、斑马纹数据表格与代码高亮块；
-* **交互式矢量思维导图**：Markmap 树状导图，支持自由平移缩放、节点收起展开与 SVG 矢量导出；
-* **本地离线语音识别 (ASR)**：内置轻量高效的 sherpa-onnx 离线语音引擎，零上传、无门槛转写本地或无字幕音视频；
-* **全文细节 AI 深度追问**：基于全片字幕与深度笔记的局部 RAG 追问导师，随时解答公式、代码与参数疑问；
-* **原生 MCP 知识库支持**：内嵌 Model Context Protocol 标准服务，为 Cursor、Windsurf、Claude 等外部 Agent 提供本地音视频资产与精读笔记检索调度能力；
-* **灵动音频胶囊播放器**：页面下滑吸顶播放，可一键收拢为极简音频胶囊，阅读空间 100% 释放；
-* **局域网跨端无缝协同**：手机端扫码免开即读，支持富文本、独立文件夹归档与多格式 Markdown 导出。
+**知影 (DeepVid)** 重新定义了音视频的学习与吸收体验——它不是简陋的“文本摘要”，而是为你量身打造的**图文精读工作台**：
+
+* **像读精装杂志一样读视频**：生成结构连贯的万字图文笔记，观点讲到哪里，当下的操作实拍、板书图表就穿插在哪里，彻底告别枯燥的纯文字；
+* **全局一目了然的思维导图**：自动将整部视频浓缩为交互式树状导图，支持自由缩放、节点折叠展开与矢量 SVG 导出，一眼掌控知识全貌；
+* **生肉/无字幕视频秒变文字**：内置完全离线的本地语音识别引擎，电脑本地极速转写，无需联网、无调用成本，100% 保护隐私；
+* **遇到不懂随时深度追问**：读笔记时对某个公式、代码段或论点有疑问？直接在右侧向知影 AI 提问，结合视频上下文为你精准解惑；
+* **轻巧沉浸的灵动音频胶囊**：下滑阅读长篇笔记时，播放器平滑吸附在顶部；点击即可收缩为极简音频胶囊在后台播放，把 100% 屏幕空间留给阅读；
+* **手机电脑协同与自由导出**：手机扫码免装应用直接阅读；支持一键复制 Markdown 或完整高清图文包，无缝导入 Obsidian、Notion 等知识库。
 
 ---
 
@@ -42,7 +44,7 @@
 
 <div align="center">
 
-| 深度图文精读专栏 | 交互式矢量思维导图 |
+| 图文并茂的深度专栏 | 交互式矢量思维导图 |
 | :---: | :---: |
 | *(实机截图展示区)* | *(实机截图展示区)* |
 
@@ -54,55 +56,56 @@
 
 ---
 
-## 核心特性
+## 核心功能
 
-| 功能模块 | 亮点解析 |
+| 功能 | 你的体验提升 |
 | :--- | :--- |
-| **多源媒体解析** | 原生支持 YouTube、哔哩哔哩 (Bilibili)、TikTok、抖音、小红书，以及本地 MP4、MOV、MP3、M4A 等音视频文件的拖拽极速提炼。 |
-| **双管线精读引擎** | **全局连贯精读 (One-Pass Stream)** 与 **超长视频分步提炼 (Two-Step Modular)** 自由切换，深度释放大模型超长上下文能力。 |
-| **离线 ASR 语音识别** | 集成 sherpa-onnx 离线推理引擎与 Silero VAD 语音断句，纯本地毫秒级提取音轨文本，隐私绝对安全。 |
-| **多阶自适应抽帧** | 根据视频时长自适应阶梯采样，智能跳过黑屏片头，呈现专栏杂志级图文质感。 |
-| **Obsidian 规范 Callout** | 原生解析展示 Note、Tip、Important、Warning、Caution、Danger 等多色卡片。 |
-| **交互式矢量思维导图** | 自动提炼层级分明的交互式思维导图，支持平移、滚轮缩放、节点收展及矢量 SVG / Markdown 导出。 |
-| **原生 MCP 知识库** | 遵循开放 Model Context Protocol 协议，支持作为外部 AI 编程工具与知识助手的本地数据底座。 |
-| **单实例进程守护** | 原生 Single-Instance 窗口守护，防多开与托盘堆叠，重复启动时平滑唤醒置顶已有窗口。 |
-| **多样化知识导出** | 支持独立嵌套文件夹、图片统一归档、同名导出及纯文本模式，零秒复制或分享至本地知识库。 |
-| **本地隐私与离线兼容** | 媒体切片与精读成果 100% 存储于本机；支持直连 Ollama、LM Studio 等私有化本地大模型。 |
+| **全网视频与本地文件通吃** | 原生支持 YouTube、哔哩哔哩 (Bilibili)、抖音、TikTok、小红书等平台链接；支持直接拖拽本地 MP4、MOV 视频或 MP3、M4A、WAV 播客录音，秒级开始提炼。 |
+| **实拍关键帧图文排版** | 系统智能检测视频内容，自动抓取高光画面并排版在对应段落中，智能避开片头黑屏，呈现专业研报级质感。 |
+| **交互式树状思维导图** | 自动提取知识树，支持鼠标滚轮无级缩放、层级折叠展开，支持一键导出矢量 SVG 图片，轻松插入个人笔记。 |
+| **完全离线的本地语音识别** | 内置离线语音识别引擎与语音断句模型，无字幕视频在电脑本地直接完成转写，文件不出设备，私密安全。 |
+| **全局深度 vs 超长分段双模式** | 短视频一气呵成直出杂志长文专栏；数小时超长课程分段逐级精酿，大模型理解不丢失细节。 |
+| **Obsidian 级精致视觉排版** | 原生支持核心提示、技巧建议、避坑预警等多色高保真卡片，配合斑马纹对比表格与代码高亮，阅读赏心悦目。 |
+| **随时发起 AI 细节追问** | 遇到复杂概念、推导过程或特定时间戳的疑惑，随时呼出右侧 AI 助手，针对细节精准解答。 |
+| **吸顶悬浮与灵动音频胶囊** | 滚动长文时视频自动吸顶；点击即可收折为 44px 紧凑音频胶囊，后台轻巧律动播放，视野零遮挡。 |
+| **跨端阅读与多样化导出** | 局域网内手机扫码免装应用秒开阅读；支持一键复制 Markdown，或导出包含高清图片的独立文件夹，无缝接入各类笔记工具。 |
+| **连接你的 AI 编程助手** | 支持原生接入 Cursor、Claude Code、Windsurf 等 AI 工具，直接在你的开发环境里检索本地视频音轨与精读笔记。 |
 
 ---
 
 ## 下载与安装
 
-前往 **[GitHub Releases 最新发布页](https://github.com/977star/DeepVid/releases)** 获取对应系统的官方安装包：
+请前往 **[GitHub Releases 最新发布页](https://github.com/977star/DeepVid/releases/latest)** 获取对应系统的官方安装包：
 
-| 操作系统 | 适用架构与环境 | 安装包格式 | 获取方式 |
+| 操作系统 | 适用设备 | 安装包格式 | 下载入口 |
 | :--- | :--- | :--- | :--- |
-| **macOS (Apple Silicon)** | M1 / M2 / M3 / M4 系列芯片 (macOS 12.0+) | `.dmg` 拖拽安装镜像 | [下载 macOS 客户端](https://github.com/977star/DeepVid/releases/latest) |
-| **Windows (64位)** | Windows 10 / 11 64位系统 | `.exe` 标准安装包 | [下载 Windows 客户端](https://github.com/977star/DeepVid/releases/latest) |
+| **macOS (Apple Silicon)** | 适用于搭载 M1 / M2 / M3 / M4 芯片的 Mac (macOS 12.0+) | `.dmg` 拖拽安装镜像 | [下载 macOS 最新版](https://github.com/977star/DeepVid/releases/latest) |
+| **Windows (64位)** | 适用于 Windows 10 / 11 64位系统 | `.exe` 标准安装包 | [下载 Windows 最新版](https://github.com/977star/DeepVid/releases/latest) |
 
 ---
 
-## 首次打开说明 (系统安全提示处理)
+## 首次打开指南 (系统安全提示解决办法)
 
-知影是开源免费分发的客户端，未购买商业开发者证书，部分操作系统在首次启动时可能会弹出安全拦截提示，可通过以下方法快速打开：
+知影是一款开源免费软件，由于未购买昂贵的商业数字签名证书，操作系统可能会在首次启动时弹出安全拦截提示，只需简单一步即可快速打开：
 
 ### macOS 提示「已损坏」或「无法打开」
-> 苹果 Gatekeeper 门禁对所有开源未签名应用的通用机制，应用本身安全纯净。
 
-- **方法一（推荐 · 纯鼠标操作）**：  
-  将应用拖入「应用程序」后，按住键盘 **Control** 键不放，鼠标右键点击 **DeepVid** 图标，在菜单中点击 **打开**，随后在确认弹窗中再次点击 **打开** 即可完成永久信任。
-- **方法二（终端一键解除隔离）**：  
-  打开系统的「终端 (Terminal)」，执行以下命令：
-  ```bash
-  sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
-  ```
+这是苹果 Gatekeeper 门禁对所有未签名开源软件的默认拦截，应用本身安全纯净。
+
+打开系统的 **「终端 (Terminal)」**，复制并运行下面这一行命令即可解除拦截：
+
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/DeepVid.app
+```
+*(粘贴后按回车，输入电脑密码即可正常秒开应用)*
 
 ---
 
 ### Windows 提示「Windows 已保护你的电脑」
-> 微软 SmartScreen 筛选器对新发布开源软件的通用保护提示。
 
-- 点击弹窗中的 **更多信息**，随后点击 **仍要运行** 即可正常进入应用。
+这是微软 SmartScreen 对新发布的开源软件的通用保护提示。
+
+在弹出的提示窗口中，点击 **「更多信息」** ➔ 点击 **「仍要运行」** 即可一秒进入。
 
 ---
 
