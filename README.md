@@ -16,6 +16,10 @@
 [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-orange.svg?style=flat-square)](https://github.com/977star/DeepVid/releases)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local--First-brightgreen.svg?style=flat-square)](https://github.com/977star/DeepVid)
 
+<br/><br/>
+
+<img src="assets/agent_integration.jpg" alt="让智能体看懂视频 · DeepVid 架构全景" style="max-width: 100%; border-radius: 16px; box-shadow: 0 12px 32px rgba(0,0,0,0.18);" />
+
 </div>
 
 ---
@@ -55,22 +59,6 @@
 * **本地存储与数据安全**：
   * 所有视频切片与精读成果 100% 保存在你的本地硬盘；
   * 内置一键缓存清理（安全保护加星收藏的笔记），随时为电脑腾出空间。
-
----
-
-## 软件实机预览
-
-<div align="center">
-
-| 图文并茂的深度专栏 | 交互式矢量思维导图 |
-| :---: | :---: |
-| *(实机截图展示区)* | *(实机截图展示区)* |
-
-| 宽屏双栏阅读工作台 | 针对视频细节的精准 AI 追问 |
-| :---: | :---: |
-| *(实机截图展示区)* | *(实机截图展示区)* |
-
-</div>
 
 ---
 
