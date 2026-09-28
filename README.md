@@ -2,7 +2,7 @@
 
 <img src="assets/logo.png" width="120" height="120" alt="DeepVid Logo" style="border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
 
-# 知影 (DeepVid)
+# DeepVid · 知影
 
 ### 让 AI 拥有看懂视频的能力 · 原生连接 MCP 与 Obsidian
 **兼容 Claude / Codex 等任意 AI Agent · 支持纯本地部署与 0 Token 消耗 · 图文专栏 · 思维导图 · 章节速读**
@@ -24,11 +24,11 @@
 
 ---
 
-## 为什么选择知影？
+## 为什么选择 DeepVid · 知影？
 
 传统的 AI 视频总结往往只有寥寥几句概括，不仅丢掉了核心的操作板书与推导细节，而且看后即弃，无法真正被你的工具流复用。
 
-知影让长视频从“信息孤岛”变成随时可被调用的**结构化数字资产**：
+DeepVid · 知影 让长视频从“信息孤岛”变成随时可被调用的**结构化数字资产**：
 
 * **让 AI 真正看懂视频 (原生 MCP)**：通过 MCP 赋予 Claude、Codex 等任意 AI Agent 智能检索视频的能力。AI 可直接翻找视频音轨与关键帧提取答案，连原视频都不用你亲自翻找；
 * **纯本地部署，0 Token 消耗**：支持完全离线运行，内置离线语音识别并支持直连 Ollama、LM Studio 等私有模型，断网也能全流程提炼，零 API 费用，100% 保护隐私；
